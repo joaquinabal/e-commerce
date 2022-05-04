@@ -1,6 +1,9 @@
 const controlador = {
         index: (req,res) => {
             res.render('index.ejs')
+        },
+        contact: (req,res) => {
+            res.render('contact.ejs')
         }
 }
 
